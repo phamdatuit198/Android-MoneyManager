@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rl_aler_account"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/whitedrank"
+        android:layout_marginBottom="10dp">
+
+        <LinearLayout
+            android:id="@+id/lv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@color/colororange">
+            <TextView
+                android:id="@+id/tv_aler_account_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/texview_dialog_account_list"
+                android:textColor="@color/colorAccent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </LinearLayout>
+
+
+       <ListView
+           android:id="@+id/lv_account"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/lv_title"
+           android:layout_marginTop="20dp"
+           android:visibility="gone">
+
+       </ListView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lv_account">
+
+            <TextView
+                android:id="@+id/tv_add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/textview_add_more"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/et_addmore"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/tv_add"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"/>
+
+            <ImageButton
+                android:id="@+id/imgbutton_add"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/ic_add_circle_black_24dp"
+                android:backgroundTint="@color/colorGreen"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/et_addmore"
+                android:layout_marginLeft="10dp"
+                android:visibility="visible"/>
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

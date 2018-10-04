@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //Basic Color
+    <color name="colorPrimary">#329432</color>
+    <color name="colorPrimaryDark">#007A00</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorred">#cc0000</color>
+    <color name="bloodred">#830303</color>
+    <color name="limegreen">#32CD32</color>
+    <color name="whitedrank">#e5e5e5</color>
+    <color name="whitedeepdrank">#D7D7D7</color>
+    <color name="dodgerblue">#d3fffb</color>
+    <color name="magenta">#FF00FF</color>
+    <color name="darkblue">#0d4065</color>
+    <color name="colorbrown">#AA7243</color>
+    <color name="white">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colororange">#FFAE19</color>
+    <color name="coloryellow">#FFFF19</color>
+    <color name="whiteGreen">#73B881</color>
+    <color name="reddrank">#F67280</color>
+    <color name="colorgray">#CCCCCC</color>
+    <color name="other">#C8C8A9</color>
+    <!-- Color for Appoitment application-->
+    <color name="colorGreen">#26B426</color>
+    <color name="grayLight">#A0A0A0</color>
+    <color name="whiteblack">#666666</color>
+    <color name="dollarGreen">#85bb65</color>
+    <!-- Color for Running application -->
+    <color name="greenActionBar">#007f00</color>
+    <color name="greenAppBar">#009900</color>
+    <color name="focus_box_corner">#ffffff</color>
+    <!-- four corner elements for viewfinder -->
+    <color name="focus_box_frame">#ffd6d6</color>
+    <color name="focus_box_mask">#60000000</color>
+    <!-- viewfinder exterior darkened area -->
+</resources>

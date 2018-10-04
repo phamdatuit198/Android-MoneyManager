@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">Money Manager</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="title_activity_money">MoneyActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+    //Admob
+    <string name="app_admob_name">Money Manager</string>
+    <string name="app_id">ca-app-pub-7576786668808413~4713761868</string>
+    <string name="app_unit_id_banner">ca-app-pub-7576786668808413/6299140421</string>
+    <string name="app_unit_id_interstitial">ca-app-pub-7576786668808413/6929518205</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="textview_income_title_date">Date</string>
+    <string name="textview_income_title_account">Account</string>
+    <string name="textview_income_title_category">Category</string>
+    <string name="textview_income_title_amount">Amount</string>
+    <string name="textview_income_title_content">Contents</string>
+
+    //Apex
+    <string name="apex_about_us">About Us!</string>
+    <string name="contract">Contact</string>
+    <string name="email">ApexAdProApps@gmail.com</string>
+
+    //Money Application
+    <string name="name_money_application">Money Manager</string>
+    <string name="money_save_button">Save</string>
+    <string name="money_cancel_button">Cancel</string>
+    <string name="detect_message">Do you realy want to save ?</string>
+
+    //Aler Account
+    <string name="textview_aler_account_title">Type of Account</string>
+    <string name="textview_aler_account_cash">Cash</string>
+    <string name="textview_aler_account_account">Accounts</string>
+    <string name="textview_aler_account_check">Check</string>
+    <string name="textview_aler_type">Type</string>
+    //Aler Category
+    <string name="textview_aler_category_title">Choose of Category</string>
+    <string name="textview_aler_category_salary">Salary</string>
+    <string name="textview_aler_category_paycheck">Paycheck</string>
+    <string name="textview_aler_category_petty_cash">Petty Cash</string>
+    <string name="textview_aler_category_bonus">Bonus</string>
+    <string name="textview_aler_category_child_support">Child Support</string>
+    <string name="textview_aler_category_stocks">Stocks</string>
+    <string name="textview_aler_category_bonds">Bonds</string>
+    <string name="textview_aler_category_other">Other</string>
+    <string name="button_text_scan">Scan Total Money Number</string>
+
+    //Aler Category for Expense
+    <string name="textview_aler_category_food">Food</string>
+    <string name="textview_aler_category_social_life">Social Life</string>
+    <string name="textview_aler_category_self_development">Self Development</string>
+    <string name="textview_aler_category_transportation">Transportation</string>
+    <string name="textview_aler_category_culture">Culture</string>
+    <string name="textview_aler_category_household">Household</string>
+    <string name="textview_aler_category_apparel">Apparel</string>
+    <string name="textview_aler_category_beauty">Beauty</string>
+    <string name="textview_aler_category_health">Health</string>
+    <string name="textview_aler_category_education">Education</string>
+    <string name="textview_aler_category_gift">Gift</string>
+
+    //Calender
+    <string name="current_date">April, 2017</string>
+    <string name="add_event">ADD CALENDAR EVENT</string>
+    <string name="sun">SUN</string>
+    <string name="mon">MON</string>
+    <string name="tue">TUE</string>
+    <string name="wed">WED</string>
+    <string name="thu">THU</string>
+    <string name="fri">FRI</string>
+    <string name="sat">SAT</string>
+    <string name="last_date">30</string>
+
+
+    //Aler Choose Account
+    <string name="texview_dialog_account_list">Account List</string>
+    <string name="textview_add_more">Add More</string>
+
+</resources>

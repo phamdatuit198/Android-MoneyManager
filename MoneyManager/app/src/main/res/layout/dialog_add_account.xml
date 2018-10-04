@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rl_aler_account"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/whitedrank">
+
+        <LinearLayout
+            android:id="@+id/lv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@color/colororange">
+            <TextView
+                android:id="@+id/tv_aler_account_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/textview_aler_account_title"
+                android:textColor="@color/colorAccent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </LinearLayout>
+
+
+        <RadioGroup
+            android:id="@+id/rg_aler_account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lv_title"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <RadioButton
+                android:id="@+id/rb_aler_account_cash"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlack"
+                android:text="@string/textview_aler_account_cash"/>
+
+            <RadioButton
+                android:id="@+id/rb_aler_account_account"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlack"
+                android:text="@string/textview_aler_account_account"/>
+
+            <RadioButton
+                android:id="@+id/rb_aler_account_check"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlack"
+                android:text="@string/textview_aler_account_check"/>
+
+        </RadioGroup>
+
+    </RelativeLayout>
+
+</LinearLayout>

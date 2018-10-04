@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/rl_aler_category_expense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/whitedrank">
+
+        <LinearLayout
+            android:id="@+id/lv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@color/colororange">
+            <TextView
+                android:id="@+id/tv_aler_category_title_expense"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/textview_aler_category_title"
+                android:textColor="@color/colorAccent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        </LinearLayout>
+
+
+
+        <RadioGroup
+            android:id="@+id/rg_aler_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lv_title"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/rb_aler_category_food"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlack"
+                android:text="@string/textview_aler_category_food"/>
+
+            <RadioButton
+                android:id="@+id/rb_aler_category_social_life"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlack"
+                android:text="@string/textview_aler_category_social_life"/>
+
+            <RadioButton
+                android:id="@+id/rb_aler_category_self_development"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlack"
+                android:text="@string/textview_aler_category_self_development"/>
+            <RadioButton
+                android:id="@+id/rb_aler_category_transportation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlack"
+                android:text="@string/textview_aler_category_transportation"/>
+            <RadioButton
+                android:id="@+id/rb_aler_category_culture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlack"
+                android:text="@string/textview_aler_category_culture"/>
+            <RadioButton
+                android:id="@+id/rb_aler_category_house_hold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlack"
+                android:text="@string/textview_aler_category_household"/>
+            <RadioButton
+                android:id="@+id/rb_aler_category_apparel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlack"
+                android:text="@string/textview_aler_category_apparel"/>
+            <RadioButton
+                android:id="@+id/rb_aler_category_beauty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlack"
+                android:text="@string/textview_aler_category_beauty"/>
+            <RadioButton
+                android:id="@+id/rb_aler_category_health"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlack"
+                android:text="@string/textview_aler_category_health"/>
+            <RadioButton
+                android:id="@+id/rb_aler_category_education"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlack"
+                android:text="@string/textview_aler_category_education"/>
+
+            <RadioButton
+                android:id="@+id/rb_aler_category_gift"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlack"
+                android:text="@string/textview_aler_category_gift"/>
+
+            <RadioButton
+                android:id="@+id/rb_aler_category_other_expense"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlack"
+                android:text="@string/textview_aler_category_other"/>
+
+        </RadioGroup>
+
+    </RelativeLayout>
+</RelativeLayout>

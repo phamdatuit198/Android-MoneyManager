@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+    <TextView
+        android:id="@+id/calendar_date_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:layout_gravity="left"
+        android:text="@string/last_date"/>
+    <RelativeLayout
+        android:id="@+id/event_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:gravity="left">
+        <TextView
+            android:id="@+id/tv_event_income"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="5dp" />
+        <TextView
+            android:id="@+id/tv_event_expenses"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="5dp"
+            android:layout_below="@+id/tv_event_income" />
+        <TextView
+            android:id="@+id/tv_event_total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_event_expenses"
+            android:textSize="5dp" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rl_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f2f2f2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="30dp"
+            android:background="@color/windowBackground">
+
+            <RelativeLayout
+                android:id="@+id/rl_adddaily_table"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableLayout
+                    android:id="@+id/tableLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:stretchColumns="1">
+
+                    <TableRow
+                        android:id="@+id/tableRowDate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            android:background="@drawable/border"
+                            android:padding="@dimen/income_row_height"
+                            android:textColor="@color/colorAccent"
+                            android:text="@string/textview_income_title_date">
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/tv_date"
+                            android:background="@drawable/border"
+                            android:padding="@dimen/income_row_height"
+                            android:text="Feb 7"
+                            android:textColor="@color/colorBlack"
+                            android:textStyle="bold"></TextView>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tableRowType"
+                        android:layout_width="match_parent">
+                        <TextView
+                            android:text="@string/textview_aler_type"
+                            android:textStyle="bold"
+                            android:background="@drawable/border"
+                            android:padding="@dimen/income_row_height"
+                            android:textColor="@color/colorAccent"
+                            android:gravity="center">
+
+                        </TextView>
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/border">
+
+                            <Spinner
+                                android:id="@+id/list_type"
+                                android:layout_width="match_parent"
+                                android:layout_height="45dp"
+                                android:layout_centerVertical="true"
+                                android:layout_marginLeft="10dp" />
+
+                        </RelativeLayout>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tableRowAccount"
+                        android:layout_width="match_parent">
+                        <TextView
+                            android:text="@string/textview_income_title_account"
+                            android:textStyle="bold"
+                            android:background="@drawable/border"
+                            android:padding="@dimen/income_row_height"
+                            android:textColor="@color/colorAccent"
+                            android:gravity="center">
+
+                        </TextView>
+                        <TextView
+                            android:id="@+id/tv_account"
+                            android:background="@drawable/border"
+                            android:padding="@dimen/income_row_height"
+                            android:textStyle="bold"
+                            android:textColor="@color/colorBlack">
+                        </TextView>
+
+                    </TableRow>
+
+
+                    <TableRow
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tableRowCategory"
+                        android:layout_width="match_parent">
+                        <TextView
+                            android:text="@string/textview_income_title_category"
+                            android:textStyle="bold"
+                            android:padding="@dimen/income_row_height"
+                            android:textColor="@color/colorAccent"
+                            android:background="@drawable/border"
+                            android:gravity="center">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/tv_category"
+                            android:background="@drawable/border"
+                            android:padding="@dimen/income_row_height"
+                            android:textColor="@color/colorBlack"
+                            android:textStyle="bold">
+                        </TextView>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tableRowAmount"
+                        android:layout_width="match_parent">
+
+                        <TextView
+                            android:text="@string/textview_income_title_amount"
+                            android:id="@+id/tv_amount"
+                            android:textStyle="bold"
+                            android:background="@drawable/border"
+                            android:textColor="@color/colorAccent"
+                            android:padding="@dimen/income_row_height"
+                            android:gravity="center">
+                        </TextView>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/border">
+
+                            <EditText
+                                android:id="@+id/edit_amount"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:layout_alignParentBottom="true"
+                                android:textColor="@color/limegreen"
+                                android:textStyle="bold"
+                                android:padding="@dimen/edit_row_table_edittext"
+                                android:hint="$0.00"
+                                android:inputType="numberDecimal"/>
+
+                        </RelativeLayout>
+
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tableRowContent"
+                        android:layout_width="match_parent">
+
+                        <TextView
+                            android:text="@string/textview_income_title_content"
+                            android:id="@+id/tv_content"
+                            android:textStyle="bold"
+                            android:background="@drawable/border"
+                            android:padding="@dimen/income_row_height"
+                            android:textColor="@color/colorAccent"
+                            android:gravity="center">
+                        </TextView>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/border">
+
+                            <EditText
+                                android:id="@+id/edit_contents"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:textColor="@color/colorBlack"
+                                android:textStyle="bold"
+                                android:padding="@dimen/edit_row_table_edittext"
+                                android:layout_alignParentBottom="true"/>
+
+                        </RelativeLayout>
+                    </TableRow>
+
+
+
+                </TableLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_saving"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rl_adddaily_table">
+
+                <Button
+                    android:id="@+id/bt_save"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/money_save_button"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:backgroundTint="@color/colororange"/>
+
+                <Button
+                    android:id="@+id/bt_cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/bt_save"
+                    android:text="@string/money_cancel_button"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:backgroundTint="@color/colororange"/>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
